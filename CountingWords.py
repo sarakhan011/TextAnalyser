@@ -20,3 +20,28 @@ def CountWords(text, stats):
         stats["syllables"] += CountSyllables(word)
         if len(word) > LONG_WORD:
             stats["longWords"] += 1
+
+
+def CountCharacters(text, stats):
+    for char in text:
+        if char.isspace():
+            stats["spaces"] += 1
+        elif char.isalpha():
+            stats["letters"] += 1
+            letter = char.lower()
+            stats["letterCounts"][letter] = stats["letterCounts"].get(letter, 0) + 1
+            if char.isupper():
+                stats["uppercase"] += 1
+            elif char.islower():
+                stats["lowercase"] += 1
+        elif char.isdigit():
+            stats["digits"] += 1
+        else:
+            stats["punctuation"] += 1
+            stats["punctuationCounts"][char] = stats["punctuationCounts"].get(char, 0) + 1
+
+
+def EndsWithAbbreviation(candidate):
+    last = candidate.split()[-1].lower()
+    return last.endswith(".") and last.rstrip(".") in ABBREVIATIONS
+
