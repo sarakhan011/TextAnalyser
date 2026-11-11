@@ -20,3 +20,10 @@ def FleschKincaid(stats):
         return 0.0
     return (0.39 * AvgSentenceWords(stats)
             + 11.8 * Ratio(stats["syllables"], words) - 15.59)
+
+def FleschLabel(score):
+    for limit, label in ((90, "Very easy"), (80, "Easy"), (70, "Fairly easy"),
+                         (60, "Standard"), (50, "Fairly difficult"), (30, "Difficult")):
+        if score >= limit:
+            return label
+    return "Very difficult"
