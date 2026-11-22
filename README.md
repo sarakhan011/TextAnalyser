@@ -117,6 +117,12 @@ LIX labels: under 30 very easy, 30–40 easy, 40–50 medium, 50–60 difficult,
 ## Graphs
 <img width="1390" height="993" alt="basic_statistics" src="https://github.com/user-attachments/assets/6f2c7e5e-f82b-4f00-9460-3045033bd302" />
 
+<img width="1369" height="503" alt="common_phrases" src="https://github.com/user-attachments/assets/2c6f1954-7382-45fa-aae1-648b4b9fca1f" />
+<img width="2090" height="503" alt="readability" src="https://github.com/user-attachments/assets/2a86233a-6092-4670-be90-d3307170b668" />
+
+<img width="1390" height="993" alt="word_analysis" src="https://github.com/user-attachments/assets/56c0053b-c1c6-41a6-b788-775cf986727f" />
+
+
 
 
 ## Limitations
