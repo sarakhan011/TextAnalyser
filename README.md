@@ -114,6 +114,11 @@ LIX labels: under 30 very easy, 30–40 easy, 40–50 medium, 50–60 difficult,
 
 **Typical words** – Words appearing at least 5 times in the selected book, ranked by how much more often the selected book uses them than all the other books combined.
 
+## Graphs
+<img width="1390" height="993" alt="basic_statistics" src="https://github.com/user-attachments/assets/6f2c7e5e-f82b-4f00-9460-3045033bd302" />
+
+
+
 ## Limitations
 
 - **Syllable counting is an English-only estimate** based on vowel groups, so Flesch and Flesch-Kincaid scores for other languages are not meaningful. LIX is more language-neutral.
